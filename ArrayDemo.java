@@ -9,6 +9,8 @@ class ArrayDemo {
             demoArray[i] = in.nextInt();
         }
 
+        in.close();
+
         for(int i = 0; i < demoArray.length; i++) {
             System.out.print(demoArray[i] + " ");
         }
